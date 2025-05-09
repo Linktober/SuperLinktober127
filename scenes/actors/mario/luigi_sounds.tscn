@@ -1,24 +1,24 @@
-[gd_scene load_steps=60 format=2]
+[gd_scene load_steps=47 format=2]
 
 [ext_resource path="res://addons/mixing-desk/sound/nonspatial/ran_cont.gd" type="Script" id=1]
 [ext_resource path="res://scenes/actors/mario/sounds.gd" type="Script" id=2]
-[ext_resource path="res://scenes/actors/mario/sounds_luigi/Dive1.wav" type="AudioStream" id=3]
+[ext_resource path="res://scenes/actors/mario/sounds_mario/Damage3.wav" type="AudioStream" id=3]
 [ext_resource path="res://scenes/actors/mario/sounds_mario/Stomped3.wav" type="AudioStream" id=4]
-[ext_resource path="res://scenes/actors/mario/sounds_luigi/Damage1.wav" type="AudioStream" id=5]
+[ext_resource path="res://scenes/actors/mario/sounds_mario/Damage1.wav" type="AudioStream" id=5]
 [ext_resource path="res://scenes/actors/mario/sounds_mario/Stomped1.wav" type="AudioStream" id=6]
-[ext_resource path="res://scenes/actors/mario/sounds_luigi/Damage2.wav" type="AudioStream" id=7]
+[ext_resource path="res://scenes/actors/mario/sounds_mario/Damage2.wav" type="AudioStream" id=7]
 [ext_resource path="res://scenes/actors/mario/sounds_mario/Stomped2.wav" type="AudioStream" id=8]
-[ext_resource path="res://scenes/actors/mario/sounds_luigi/Dive2.wav" type="AudioStream" id=9]
-[ext_resource path="res://scenes/actors/mario/sounds_luigi/Fall1.wav" type="AudioStream" id=10]
-[ext_resource path="res://scenes/actors/mario/sounds_luigi/TripleJump1.wav" type="AudioStream" id=11]
-[ext_resource path="res://scenes/actors/mario/sounds_luigi/TripleJump2.wav" type="AudioStream" id=12]
-[ext_resource path="res://scenes/actors/mario/sounds_luigi/Jump1.wav" type="AudioStream" id=13]
-[ext_resource path="res://scenes/actors/mario/sounds_luigi/Jump3.wav" type="AudioStream" id=14]
-[ext_resource path="res://scenes/actors/mario/sounds_luigi/Jump4.wav" type="AudioStream" id=15]
-[ext_resource path="res://scenes/actors/mario/sounds_luigi/Jump2.wav" type="AudioStream" id=16]
-[ext_resource path="res://scenes/actors/mario/sounds_luigi/DoubleJump1.wav" type="AudioStream" id=17]
-[ext_resource path="res://scenes/actors/mario/sounds_luigi/Dive3.wav" type="AudioStream" id=18]
-[ext_resource path="res://scenes/actors/mario/sounds_luigi/DoubleJump2.wav" type="AudioStream" id=19]
+[ext_resource path="res://scenes/actors/mario/sounds_mario/Powerup1.wav" type="AudioStream" id=9]
+[ext_resource path="res://scenes/actors/mario/sounds_mario/Shine1.wav" type="AudioStream" id=10]
+[ext_resource path="res://scenes/actors/mario/sounds_mario/Jump2.wav" type="AudioStream" id=11]
+[ext_resource path="res://scenes/actors/mario/sounds_mario/TripleJump1.wav" type="AudioStream" id=12]
+[ext_resource path="res://scenes/actors/mario/sounds_mario/Fall.wav" type="AudioStream" id=13]
+[ext_resource path="res://scenes/actors/mario/sounds_mario/TripleJump3.wav" type="AudioStream" id=14]
+[ext_resource path="res://scenes/actors/mario/sounds_mario/Jump3.wav" type="AudioStream" id=15]
+[ext_resource path="res://scenes/actors/mario/sounds_mario/TripleJump2.wav" type="AudioStream" id=16]
+[ext_resource path="res://scenes/actors/mario/sounds_mario/DoubleJump2.wav" type="AudioStream" id=17]
+[ext_resource path="res://scenes/actors/mario/sounds_mario/Shine2.wav" type="AudioStream" id=18]
+[ext_resource path="res://scenes/actors/mario/sounds_mario/LastHit2.wav" type="AudioStream" id=19]
 [ext_resource path="res://scenes/actors/mario/sounds_misc/pound_hit.wav" type="AudioStream" id=20]
 [ext_resource path="res://scenes/actors/mario/sounds_misc/pound_windup.wav" type="AudioStream" id=21]
 [ext_resource path="res://scenes/actors/mario/sounds_misc/skid.wav" type="AudioStream" id=22]
@@ -30,21 +30,20 @@
 [ext_resource path="res://scenes/actors/mario/sounds_misc/spin.wav" type="AudioStream" id=28]
 [ext_resource path="res://scenes/actors/mario/sounds_misc/wall_jump.wav" type="AudioStream" id=29]
 [ext_resource path="res://scenes/actors/mario/sounds_misc/footsteps/default2.wav" type="AudioStream" id=30]
-[ext_resource path="res://scenes/actors/mario/sounds_luigi/Death1.wav" type="AudioStream" id=31]
+[ext_resource path="res://scenes/actors/mario/sounds_mario/LastHit1.wav" type="AudioStream" id=31]
 [ext_resource path="res://assets/sounds/death.wav" type="AudioStream" id=32]
-[ext_resource path="res://scenes/actors/mario/sounds_luigi/LastHit1.wav" type="AudioStream" id=33]
-[ext_resource path="res://scenes/actors/mario/sounds_luigi/Powerup2.wav" type="AudioStream" id=34]
-[ext_resource path="res://scenes/actors/mario/sounds_luigi/Powerup1.wav" type="AudioStream" id=35]
-[ext_resource path="res://scenes/actors/mario/sounds_luigi/Powerup3.wav" type="AudioStream" id=36]
+[ext_resource path="res://scenes/actors/mario/sounds_mario/Death2.wav" type="AudioStream" id=33]
+[ext_resource path="res://scenes/actors/mario/sounds_mario/Death1.wav" type="AudioStream" id=34]
+[ext_resource path="res://scenes/actors/mario/sounds_mario/Powerup2.wav" type="AudioStream" id=35]
+[ext_resource path="res://scenes/actors/mario/sounds_mario/Powerup3.wav" type="AudioStream" id=36]
 [ext_resource path="res://scenes/actors/mario/sounds_misc/powerup.wav" type="AudioStream" id=37]
-[ext_resource path="res://scenes/actors/mario/sounds_luigi/Shine2.wav" type="AudioStream" id=38]
-[ext_resource path="res://scenes/actors/mario/sounds_luigi/Shine1.wav" type="AudioStream" id=39]
+[ext_resource path="res://scenes/actors/mario/sounds_mario/Jump1.wav" type="AudioStream" id=38]
+[ext_resource path="res://scenes/actors/mario/sounds_mario/DoubleJump1.wav" type="AudioStream" id=39]
 [ext_resource path="res://scenes/actors/mario/sounds_misc/water_splash.wav" type="AudioStream" id=40]
 [ext_resource path="res://scenes/actors/mario/sounds_misc/swim.ogg" type="AudioStream" id=41]
 [ext_resource path="res://scenes/actors/mario/sounds_misc/spin_water.wav" type="AudioStream" id=42]
-[ext_resource path="res://scenes/actors/mario/sounds_luigi/Lava2.wav" type="AudioStream" id=43]
+[ext_resource path="res://scenes/actors/mario/sounds_luigi/Lava1.wav" type="AudioStream" id=43]
 [ext_resource path="res://scenes/actors/mario/sounds_misc/burn.wav" type="AudioStream" id=44]
-[ext_resource path="res://scenes/actors/mario/sounds_luigi/Lava1.wav" type="AudioStream" id=45]
 [ext_resource path="res://classes/BusGroup.gd" type="Script" id=46]
 [ext_resource path="res://classes/SoundGroup.gd" type="Script" id=47]
 [ext_resource path="res://scenes/actors/mario/sounds_misc/footsteps/CLANG.wav" type="AudioStream" id=48]
@@ -72,63 +71,80 @@ script = ExtResource( 46 )
 script = ExtResource( 47 )
 
 [node name="Jump1" type="AudioStreamPlayer" parent="VoiceEffects/JumpSounds"]
-stream = ExtResource( 13 )
+stream = ExtResource( 38 )
+volume_db = -4.369
 bus = "Voices"
 
 [node name="Jump2" type="AudioStreamPlayer" parent="VoiceEffects/JumpSounds"]
-stream = ExtResource( 16 )
+stream = ExtResource( 11 )
+volume_db = -4.369
 bus = "Voices"
 
 [node name="Jump3" type="AudioStreamPlayer" parent="VoiceEffects/JumpSounds"]
-stream = ExtResource( 14 )
+stream = ExtResource( 15 )
+volume_db = -4.369
 bus = "Voices"
 
 [node name="Jump4" type="AudioStreamPlayer" parent="VoiceEffects/JumpSounds"]
 stream = ExtResource( 15 )
+volume_db = -4.369
 bus = "Voices"
 
 [node name="DoubleJumpSounds" type="Node" parent="VoiceEffects"]
 script = ExtResource( 47 )
 
 [node name="DoubleJump1" type="AudioStreamPlayer" parent="VoiceEffects/DoubleJumpSounds"]
-stream = ExtResource( 17 )
+stream = ExtResource( 39 )
+volume_db = -4.369
 bus = "Voices"
 
 [node name="DoubleJump2" type="AudioStreamPlayer" parent="VoiceEffects/DoubleJumpSounds"]
-stream = ExtResource( 19 )
+stream = ExtResource( 17 )
+volume_db = -4.369
+bus = "Voices"
+
+[node name="DoubleJump3" type="AudioStreamPlayer" parent="VoiceEffects/DoubleJumpSounds"]
+stream = ExtResource( 15 )
+volume_db = -4.369
 bus = "Voices"
 
 [node name="TripleJumpSounds" type="Node" parent="VoiceEffects"]
 script = ExtResource( 47 )
 
 [node name="TripleJump1" type="AudioStreamPlayer" parent="VoiceEffects/TripleJumpSounds"]
-stream = ExtResource( 11 )
+stream = ExtResource( 12 )
+volume_db = -4.369
 bus = "Voices"
 
 [node name="TripleJump2" type="AudioStreamPlayer" parent="VoiceEffects/TripleJumpSounds"]
-stream = ExtResource( 12 )
+stream = ExtResource( 16 )
+volume_db = -4.369
+bus = "Voices"
+
+[node name="TripleJump3" type="AudioStreamPlayer" parent="VoiceEffects/TripleJumpSounds"]
+stream = ExtResource( 14 )
+volume_db = -4.369
 bus = "Voices"
 
 [node name="DiveSounds" type="Node" parent="VoiceEffects"]
 script = ExtResource( 47 )
 
 [node name="Dive1" type="AudioStreamPlayer" parent="VoiceEffects/DiveSounds"]
-stream = ExtResource( 3 )
+stream = ExtResource( 11 )
+volume_db = -4.369
 bus = "Voices"
 
 [node name="Dive2" type="AudioStreamPlayer" parent="VoiceEffects/DiveSounds"]
-stream = ExtResource( 9 )
-bus = "Voices"
-
-[node name="Dive3" type="AudioStreamPlayer" parent="VoiceEffects/DiveSounds"]
-stream = ExtResource( 18 )
+stream = ExtResource( 39 )
+volume_db = -4.359
 bus = "Voices"
 
 [node name="FallSounds" type="Node" parent="VoiceEffects"]
 script = ExtResource( 47 )
 
 [node name="Fall1" type="AudioStreamPlayer" parent="VoiceEffects/FallSounds"]
-stream = ExtResource( 10 )
+stream = ExtResource( 13 )
+volume_db = -7.865
 bus = "Voices"
 
 [node name="HitSounds" type="Node" parent="VoiceEffects"]
@@ -136,18 +152,30 @@ script = ExtResource( 47 )
 
 [node name="Hit1" type="AudioStreamPlayer" parent="VoiceEffects/HitSounds"]
 stream = ExtResource( 5 )
+volume_db = -4.369
 bus = "Voices"
 
 [node name="Hit2" type="AudioStreamPlayer" parent="VoiceEffects/HitSounds"]
 stream = ExtResource( 7 )
+volume_db = -4.369
+bus = "Voices"
+
+[node name="Hit3" type="AudioStreamPlayer" parent="VoiceEffects/HitSounds"]
+stream = ExtResource( 3 )
+volume_db = -4.369
 bus = "Voices"
 
 [node name="LastHitSounds" type="Node" parent="VoiceEffects"]
 script = ExtResource( 47 )
 
 [node name="LastHit1" type="AudioStreamPlayer" parent="VoiceEffects/LastHitSounds"]
-stream = ExtResource( 33 )
-volume_db = -2.0
+stream = ExtResource( 31 )
+volume_db = -7.865
+bus = "Voices"
+
+[node name="LastHit2" type="AudioStreamPlayer" parent="VoiceEffects/LastHitSounds"]
+stream = ExtResource( 19 )
+volume_db = -7.865
 bus = "Voices"
 
 [node name="StompedSounds" type="Node" parent="VoiceEffects"]
@@ -155,60 +183,74 @@ script = ExtResource( 47 )
 
 [node name="Stomped1" type="AudioStreamPlayer" parent="VoiceEffects/StompedSounds"]
 stream = ExtResource( 6 )
+volume_db = -7.865
 bus = "Voices"
 
 [node name="Stomped2" type="AudioStreamPlayer" parent="VoiceEffects/StompedSounds"]
 stream = ExtResource( 8 )
+volume_db = -7.865
 bus = "Voices"
 
 [node name="Stomped3" type="AudioStreamPlayer" parent="VoiceEffects/StompedSounds"]
 stream = ExtResource( 4 )
+volume_db = -7.865
 bus = "Voices"
 
 [node name="DeathSounds" type="Node" parent="VoiceEffects"]
 script = ExtResource( 47 )
 
 [node name="Death1" type="AudioStreamPlayer" parent="VoiceEffects/DeathSounds"]
-stream = ExtResource( 31 )
+stream = ExtResource( 34 )
+volume_db = -1.0
+bus = "Voices"
+
+[node name="Death2" type="AudioStreamPlayer" parent="VoiceEffects/DeathSounds"]
+stream = ExtResource( 33 )
+volume_db = -1.25
 bus = "Voices"
 
 [node name="PowerupSounds" type="Node" parent="VoiceEffects"]
 script = ExtResource( 47 )
 
 [node name="Powerup1" type="AudioStreamPlayer" parent="VoiceEffects/PowerupSounds"]
-stream = ExtResource( 35 )
-volume_db = 2.0
+stream = ExtResource( 9 )
+volume_db = 1.378
 bus = "Voices"
 
 [node name="Powerup2" type="AudioStreamPlayer" parent="VoiceEffects/PowerupSounds"]
-stream = ExtResource( 34 )
-volume_db = 2.0
+stream = ExtResource( 35 )
+volume_db = 1.0
 bus = "Voices"
 
 [node name="Powerup3" type="AudioStreamPlayer" parent="VoiceEffects/PowerupSounds"]
 stream = ExtResource( 36 )
-volume_db = 2.0
+volume_db = 1.378
 bus = "Voices"
 
 [node name="LavaHurtSounds" type="Node" parent="VoiceEffects"]
 script = ExtResource( 47 )
 
 [node name="Lava1" type="AudioStreamPlayer" parent="VoiceEffects/LavaHurtSounds"]
-stream = ExtResource( 45 )
-volume_db = -9.5
+stream = ExtResource( 43 )
+volume_db = -7.0
 bus = "Voices"
 
 [node name="Lava2" type="AudioStreamPlayer" parent="VoiceEffects/LavaHurtSounds"]
 stream = ExtResource( 43 )
-volume_db = -3.5
+volume_db = -7.0
+bus = "Voices"
+
+[node name="Lava3" type="AudioStreamPlayer" parent="VoiceEffects/LavaHurtSounds"]
+stream = ExtResource( 43 )
+volume_db = -7.0
 bus = "Voices"
 
 [node name="ShineSounds" type="Node" parent="VoiceEffects"]
 script = ExtResource( 47 )
 
 [node name="Shine1" type="AudioStreamPlayer" parent="VoiceEffects/ShineSounds"]
-stream = ExtResource( 39 )
-volume_db = 3.5
+stream = ExtResource( 10 )
+volume_db = 2.5
 bus = "Voices"
 
 [node name="Shine2" type="AudioStreamPlayer" parent="VoiceEffects/ShineSounds"]
